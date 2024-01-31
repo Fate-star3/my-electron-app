@@ -9,6 +9,12 @@ module.exports = {
       config: {
         certificateFile: './cert.pfx',
         certificatePassword: process.env.CERTIFICATE_PASSWORD,
+        repository: {
+          owner: 'Fate-star3',
+          name: 'my-electron-app',
+        },
+        prerelease: false,
+        draft: true,
       },
     },
     {
